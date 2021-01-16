@@ -1,0 +1,69 @@
+<app-header></app-header>
+
+
+<div class="container-fluid" >
+    <div  style="border: 3px solid black;">
+       <div style="padding:25px;">
+            <div>
+                <label id="text">Select mode of scanning:</label>
+            </div>
+            <div  fxLayout="row">
+                <div fxFlex="30">
+                    <mat-form-field appearance="fill"  style="width:334px;height:56px;border: 3px solid #0198EE;">
+                        <mat-label>Mode</mat-label>
+                        <mat-select>
+                            <mat-option *ngFor="let mode of modes" [value]="mode.value">
+                                {{mode.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div fxFlex>
+                    <button mat-button color="primary" >Start Scan</button>
+                </div>
+            </div>
+       </div>
+
+       <div class="caption" fxLayout="row">
+           <div fxFlex="29" fxFlexOffset="2">
+                <img src="assets\photos\Inventory-management.png" alt="inv" />
+           </div>
+           <div fxFlex="30">    
+                <label class="text1">Select a mode and Start Scanning</label>
+           </div>
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<app-footer></app-footer>

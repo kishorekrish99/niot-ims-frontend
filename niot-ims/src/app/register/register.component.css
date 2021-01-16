@@ -1,0 +1,47 @@
+.mat-tab-label {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    font: normal normal normal 31px/36px Trebuchet MS;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.mat-ink-bar {
+    background-color: black;
+}
+
+.mat-tab-body-content{
+    padding: 2%;
+    font-size: 21px;
+    font-weight: bold;
+    font: normal normal normal 21px/25px Trebuchet MS;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.scan{
+    padding-top: 5%;
+}
+.mat-button{
+    background: #0198EE 0% 0% no-repeat padding-box;
+    border: 3px solid #0198EE;
+    border-radius: 28px;
+    opacity: 1;
+    color: white;
+    width: 334px;
+    height: 56px;
+}
+.assign{
+    padding-top: 5%;
+}
+.details{
+    padding-top: 2%;
+}
+.remove{
+    padding-top:2%;
+}

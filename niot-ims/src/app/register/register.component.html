@@ -1,0 +1,70 @@
+<app-header></app-header>
+
+
+<div class="container-fluid">
+    <mat-tab-group style="border: 3px solid black;">
+        <mat-tab label="RFID Registration" >
+            <div fxLayout="row">
+                <div  fxFlex="35" >
+                    <label>Select component to assign RFID</label><br>
+                    <input type="text" name="component-name" style="width:334px;height:56px;border: 3px solid #0198EE;"/>
+                </div>
+                <div fxFlex>
+                    <label>Enter the Component Name</label><br>
+                    <input type="text" name="component-name" style="width:334px;height:56px;border: 3px solid #0198EE;"/>
+                </div>
+            </div>
+            <div class="scan">
+                <label>Scanning of RFID</label><br>
+                <input type="text" name="component-name" style="width:334px;height:56px;border: 3px solid #0198EE;border-radius: 28px;"/>
+            </div>
+            <div class="assign">
+            <button mat-button  >Assign</button>
+        </div>
+        </mat-tab>
+        <mat-tab label="Inventory Changes">
+            <div fxLayout="row">
+                <div  fxFlex="35" >
+                    <label>Enter the RFID</label><br>
+                    <input type="text" name="component-name" style="width:334px;height:56px;border: 3px solid #0198EE;"/>
+                </div>
+                <div fxFlex>
+                    <label>Enter Component Name</label><br>
+                    <input type="text" name="component-name" style="width:334px;height:56px;border: 3px solid #0198EE;"/>
+                </div>
+            </div>
+            <div class="details">
+                <label>Component Detials: </label><br>
+                <label>Component Name:</label><br>
+                <label>RFID: </label><br>
+                <label>Latest Status(log details)</label><br>
+                <label>Subcomponent Details</label><br>
+            </div>
+            <div class="remove">
+                <button mat-button >Remove Component</button>
+            </div>
+
+
+
+
+
+
+
+        </mat-tab>
+    </mat-tab-group>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<app-footer></app-footer>

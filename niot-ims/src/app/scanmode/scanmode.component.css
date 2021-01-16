@@ -1,0 +1,35 @@
+#text{
+height: 25px;
+text-align: center;
+font: normal normal normal 21px/25px Trebuchet MS;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.mat-button{
+    color:white;
+    background-color: rgba(1,152,238,1);
+    width: 334px;
+    height: 62px;
+    border-radius: 28px;
+    font: normal normal normal 41px/47px Trebuchet MS;
+}
+
+.caption{
+    padding-top: 20px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.text1{
+    padding-top: 20px;
+    width: 524px;
+height: 142px;
+text-align: left;
+font: normal normal normal 61px/71px Trebuchet MS;
+letter-spacing: 0px;
+color: #03316D;
+opacity: 1;
+
+}

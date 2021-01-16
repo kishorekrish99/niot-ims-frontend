@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template: 100px / auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+  }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.btnn{
+    align-self:center;
+    padding-right: 0px;
+    text-align: end;
+}
+
+.mat-button{
+    color:white;
+    background-color: rgba(1,152,238,1);
+    width : 13em;
+    height: 3em;
+    border-radius: 15px;
+}
+
+.user{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr
+{
+    background-color: rgba(1,152,238,1);
+    border: 0 none;
+    color:  rgba(1,152,238,1);
+    height: 8px;
+}
